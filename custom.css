@@ -1,0 +1,42 @@
+/* Landing page */
+mw-landing-page-header {
+  -webkit-app-region: drag;
+}
+
+mw-landing-page-header.ng-tns-c2-0 {
+  padding-left: 84px;
+}
+
+/* Main panel (right) */
+mws-header {
+  -webkit-app-region: drag;
+}
+
+mws-header button,
+mws-header a[href] {
+  -webkit-app-region: no-drag;
+}
+
+@media (max-width: 560px) {
+  mws-header {
+    padding-left: 100px !important;
+  }
+}
+
+mw-settings-container > mws-header {
+  padding-left: 100px !important;
+}
+
+/* Navigation menu (left) */
+mw-main-nav > .main-nav-header > .new-chat-header {
+  -webkit-app-region: drag;
+}
+
+mw-main-nav > .main-nav-header > .new-chat-header button,
+mw-main-nav > .main-nav-header > .new-chat-header a[href] {
+  -webkit-app-region: no-drag;
+}
+
+mw-main-nav > .main-nav-header > .new-chat-header > h1 > a {
+  display: none;
+}
